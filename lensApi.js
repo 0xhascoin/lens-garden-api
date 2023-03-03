@@ -1,4 +1,6 @@
-import { createClient } from "urql";
+import pkg from 'urql';
+
+const { createClient } = pkg;
 
 const API_URL = "https://api.lens.dev"
 export const client = createClient({
